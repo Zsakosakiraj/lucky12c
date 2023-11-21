@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+h1:not(.intro h1){
+    color: white;
+    background-color: #00a084;
+}
+h1{
+    font-family: 'Fredericka the Great'
+}
+h5{
+    color: white;
+    background-color: #00a084;
+    font-family: 'Fredericka the Great';
+    height: 110%;
+    width: 75%;
+    margin-left: 50px;
+    padding-top: 10px;
+}
+.card-body{
+    background-color: #2F1400;
+}
+body{
+    background-color: #FFD4AD;
+}
+.card{
+    border: 1px solid #2F1400;
+}
+nav{
+    background-color: #2F1400 !important;
+}
+.navbar-brand{
+    color: white;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: #00a084;
+}
+.navbar-brand:hover{
+    color: #00a084;
+}
+.banner{
+    background-image: url("../img/banner-min.jpg");
+    height: 250px;
+    background-position: center center;
+    background-size: cover;
+}
+footer{
+    background-color: #2F1400;
+    color: white;
+}
+footer li{
+    list-style-type: none;
+}
+input{
+    user-select: none;
+}
+#home{
+    background-image: url("../img/homebg-min-min.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.intro{
+    color: white;
+    height: 100vh;
+    text-align: center;
+}
+.intro h1{
+    background-color: none;
+}
+.intro .col-md-8{
+    background-color: rgba(0,0,0,0.4);
+}
+*{
+    scroll-behavior: smooth;
+}
